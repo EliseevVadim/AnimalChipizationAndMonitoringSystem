@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FD49680E-9BB1-43E3-97AB-FD4C0AD20184}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E292B7E6-3C74-4E06-85F4-78A0DBB9AE60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F3178BD7-E0E6-4D9D-9A53-5D7BDC5BF222}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalChipizationAndMonitoringSystem.Domain", "AnimalChipizationAndMonitoringSystem.Domain\AnimalChipizationAndMonitoringSystem.Domain.csproj", "{350C9BA6-E6C2-4960-8761-B4C418194147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalChipizationAndMonitoringSystem.Application", "AnimalChipizationAndMonitoringSystem.Application\AnimalChipizationAndMonitoringSystem.Application.csproj", "{CD273C12-43D5-412F-B442-7693B8E3D766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalChipizationAndMonitoringSystem.Persistence", "AnimalChipizationAndMonitoringSystem.Persistence\AnimalChipizationAndMonitoringSystem.Persistence.csproj", "{E6AF9641-C9D0-4516-BC44-5709909D64AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalChipizationAndMonitoringSystem.WebApi", "AnimalChipizationAndMonitoringSystem.WebApi\AnimalChipizationAndMonitoringSystem.WebApi.csproj", "{CEEE6E6D-F893-444A-8866-9815725A25F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{350C9BA6-E6C2-4960-8761-B4C418194147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{350C9BA6-E6C2-4960-8761-B4C418194147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{350C9BA6-E6C2-4960-8761-B4C418194147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{350C9BA6-E6C2-4960-8761-B4C418194147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD273C12-43D5-412F-B442-7693B8E3D766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD273C12-43D5-412F-B442-7693B8E3D766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD273C12-43D5-412F-B442-7693B8E3D766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD273C12-43D5-412F-B442-7693B8E3D766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6AF9641-C9D0-4516-BC44-5709909D64AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6AF9641-C9D0-4516-BC44-5709909D64AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6AF9641-C9D0-4516-BC44-5709909D64AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6AF9641-C9D0-4516-BC44-5709909D64AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEEE6E6D-F893-444A-8866-9815725A25F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEEE6E6D-F893-444A-8866-9815725A25F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEEE6E6D-F893-444A-8866-9815725A25F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEEE6E6D-F893-444A-8866-9815725A25F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{350C9BA6-E6C2-4960-8761-B4C418194147} = {FD49680E-9BB1-43E3-97AB-FD4C0AD20184}
+		{CD273C12-43D5-412F-B442-7693B8E3D766} = {FD49680E-9BB1-43E3-97AB-FD4C0AD20184}
+		{E6AF9641-C9D0-4516-BC44-5709909D64AD} = {E292B7E6-3C74-4E06-85F4-78A0DBB9AE60}
+		{CEEE6E6D-F893-444A-8866-9815725A25F1} = {F3178BD7-E0E6-4D9D-9A53-5D7BDC5BF222}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4680220D-8CF7-4A6A-8078-CA60F00AA6AE}
+	EndGlobalSection
+EndGlobal
