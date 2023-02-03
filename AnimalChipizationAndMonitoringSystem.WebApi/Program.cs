@@ -1,3 +1,4 @@
+using AnimalChipizationAndMonitoringSystem.Application.Extensions;
 using AnimalChipizationAndMonitoringSystem.Persistence;
 using AnimalChipizationAndMonitoringSystem.Persistence.Extensions;
 using Serilog;
@@ -10,6 +11,7 @@ Log.Logger = new LoggerConfiguration()
     .WriteTo.File("AnimalsChipizationAndMonitoringSystem-.txt", rollingInterval: RollingInterval.Day)
     .CreateLogger();
 
+builder.Services.AddApplication();
 builder.Services.AddPersistence(builder.Configuration);
 
 var app = builder.Build();
