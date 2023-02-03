@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace AnimalChipizationAndMonitoringSystem.Application.Common.Exceptions
 {
-    public class ForbiddenActionException
+    public class ForbiddenActionException : Exception
     {
+        public ForbiddenActionException(string message)
+            : base(message) { }
     }
 }

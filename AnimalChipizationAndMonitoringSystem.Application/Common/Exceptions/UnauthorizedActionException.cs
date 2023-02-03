@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace AnimalChipizationAndMonitoringSystem.Application.Common.Exceptions
 {
-    public class UnauthorizedActionException
+    public class UnauthorizedActionException : Exception
     {
+        public UnauthorizedActionException(string message)
+            : base(message) { }
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace AnimalChipizationAndMonitoringSystem.Application.Common.Exceptions
 {
-    public class ConflictActionException
+    public class ConflictActionException : Exception
     {
+        public ConflictActionException(string message)
+            :base(message) { }
     }
 }
