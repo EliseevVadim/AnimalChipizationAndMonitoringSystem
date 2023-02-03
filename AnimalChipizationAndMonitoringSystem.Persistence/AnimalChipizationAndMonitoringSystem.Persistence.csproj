@@ -8,15 +8,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AnimalChipizationAndMonitoringSystem.Domain\AnimalChipizationAndMonitoringSystem.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="EntityConfigurations\" />
+    <ProjectReference Include="..\AnimalChipizationAndMonitoringSystem.Application\AnimalChipizationAndMonitoringSystem.Application.csproj" />
   </ItemGroup>
 
 </Project>

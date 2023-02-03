@@ -11,11 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalChipizationAndMonitoringSystem.Domain", "AnimalChipizationAndMonitoringSystem.Domain\AnimalChipizationAndMonitoringSystem.Domain.csproj", "{350C9BA6-E6C2-4960-8761-B4C418194147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalChipizationAndMonitoringSystem.Application", "AnimalChipizationAndMonitoringSystem.Application\AnimalChipizationAndMonitoringSystem.Application.csproj", "{CD273C12-43D5-412F-B442-7693B8E3D766}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalChipizationAndMonitoringSystem.Application", "AnimalChipizationAndMonitoringSystem.Application\AnimalChipizationAndMonitoringSystem.Application.csproj", "{CD273C12-43D5-412F-B442-7693B8E3D766}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalChipizationAndMonitoringSystem.Persistence", "AnimalChipizationAndMonitoringSystem.Persistence\AnimalChipizationAndMonitoringSystem.Persistence.csproj", "{E6AF9641-C9D0-4516-BC44-5709909D64AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalChipizationAndMonitoringSystem.Persistence", "AnimalChipizationAndMonitoringSystem.Persistence\AnimalChipizationAndMonitoringSystem.Persistence.csproj", "{E6AF9641-C9D0-4516-BC44-5709909D64AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalChipizationAndMonitoringSystem.WebApi", "AnimalChipizationAndMonitoringSystem.WebApi\AnimalChipizationAndMonitoringSystem.WebApi.csproj", "{CEEE6E6D-F893-444A-8866-9815725A25F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalChipizationAndMonitoringSystem.WebApi", "AnimalChipizationAndMonitoringSystem.WebApi\AnimalChipizationAndMonitoringSystem.WebApi.csproj", "{CEEE6E6D-F893-444A-8866-9815725A25F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
